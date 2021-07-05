@@ -9,12 +9,12 @@ function sendemail()
     body += "Thank you for your attention to this important matter. " + "\n" +"\n";
     body += "Yours sincerely," + "\n" +"\n" +"\n";
     body +=  document.getElementById("name").value + "\n";
-    body +=  document.getElementById("contact").value;
+    body +=  document.getElementById("contact").value + "\n";
     body += document.getElementById("address").value;
 
     var subject = "India's Animals Are Suffering Because of Weak Penalties for Cruelty";
-    var address = "spca.chandigarh.38@gmail.com,jdahus-chd@nic.in";
-    var cc_address = "animalwelfareboard@gmail.com,admr-chd@nic.in";
+    var address = "info@petaindi.com";
+    var cc_address = "animalwelfareboar@gmail.com,test@petaindia.com";
     var bcc_address = "animalgrievances@gmail.com";
 
     var location = "mailto:" + address + "?" + "cc=" + cc_address + "&bcc=" + bcc_address + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
