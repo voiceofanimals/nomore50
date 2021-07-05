@@ -18,7 +18,7 @@ function sendemail()
     var cc_address = "animalwelfareboar@gmail.com,test@petaindia.com";
     var bcc_address = "animalgrievances@gmail.com";
 
-    var location = "mailto:" + address + "?" + "cc=" + cc_address + "&bcc=" + bcc_address + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body).replace(%0A, "%0A0D0A");
+    var location = "mailto:" + address + "?" + "cc=" + cc_address + "&bcc=" + bcc_address + "&subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body).replace(\n, "%0A0D0A");
     
     window.location.href = location;
 }
