@@ -5,13 +5,12 @@ function sendemail()
 {
     var body ="Shri Narendra Modi Ji," + "\r";
     body += "Prime Minister of India" + "\r" + "\r" + "\r";
-    body += "Incidences of cruelty to animals in India, each more shocking than the last, are frequently reported by media outlets. Dogs are poisoned, cows have been burned with acid, and countless other animals across the country are abused every day.  Yet people convicted of such crimes often only pay a paltry Rs 50 fine – the maximum penalty for a first offence of animal abuse under The Prevention of Cruelty to Animals Act, 1960. Please help prevent violence against animals by strengthening India's animal protection laws and penalties for abusers. " + "\r" +"\r";
-    body += "I respectfully ask that you show that cruelty to animals won't be tolerated by ensuring that people found guilty of it receive jail time, significant fines, and counselling and are forbidden to have contact with animals." + "\r" +"\r";
-    body += "Thank you for your attention to this important matter. " + "\r" +"\r";
-    body += "Yours sincerely," + "\r" +"\r" +"\r";
+    body += "I am troubled by the incidences of cruelty to animals in India, each more shocking than the last. Tens of lakhs of animals have become victims of crimes committed by humans.Dogs are poisoned, brutally attacked, bludgeoned to death, cows have been burned with acid, and countless other animals across the country are abused every day.  Yet people convicted of such crimes often only pay a paltry Rs 50 fine – the maximum penalty for a first offence of animal abuse under The Prevention of Cruelty to Animals Act, 1960. Please help prevent violence against animals by strengthening India's animal protection laws and penalties for abusers. I respectfully ask that you show that cruelty to animals wont be tolerated by ensuring that heinous crimes of brutal torture or killing of animals be made a non-bailable offence and persons found guilty of it receive significant jail time, exemplary fines, and counselling and are forbidden to have contact with animals." + "\r" +"\r";
+    body += "I also urge you to ensure that the proposed amendment to the Prevention of Cruelty to Animals Act 1960, after taking into account suggestions sent by NGOs and activists, be introduced and passed in this monsoon session of Parliament beginning 19 July. Thank you for your attention to this important matter." + "\r" +"\r";
+    body += "Yours sincerely," + "\r";
     body +=  document.getElementById("name").value + "\r";
     body +=  document.getElementById("contact").value + "\r";
-    body += document.getElementById("address").value;
+    body += document.getElementById("city").value;
 
     var subject = "India's Animals Are Suffering Because of Weak Penalties for Cruelty";
     var address = "info@petaindi.com";
@@ -26,31 +25,47 @@ function sendemail()
 
 <link rel="stylesheet" href="formstylesheet.css">
 <script src="script.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petition To Increase the penalty for animal cruelty. | Take Action Now!</title>
+<meta name="description" content="Petition To Increase the penalty for animal cruelty. | Take Action Now!">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 </head>
 <body>
+    
+    
+    
+    
+<!---- Try This ---->
+    
+<div class="content">
+  <div class="col-1">
+    <!-- Card example 01 -->
+    <div class="card">
+      <div class="optional-header">
+        <div class="primary-title">
+          <div class="title">#NoMore50</div>
+          <div class="subhead">Petition To Ammend PCA Act,1960</div>
+        </div>
+      </div>
+      <div class="media media--16-9"> <img src="rep-spca.png" alt="Petition To Ammend PCA Act,1960" width="640" height="426"> </div>
+      <div class="primary-title">
+        <div class="primary-text"><b>Increase The Penalty For <br>Animal Cruelty</b></div>
+        <!-- <div class="secondary-text">Petition: To The administrator, Chandigarh UT</div> -->
+      </div>
+      <div class="supporting-text">Animal cruelty has been rising exponentially in recent times. Even 60 years later, the penalty for animal cruelty still stands to a meagre amount of Rs. 50 with no imprisonment..</div>
+      <div class="actions">
+        <div class="action-buttons">
+ 
+<!---- Try This ---->
 
-
-<div class="login-page">
-<div><h2>NoMore50</h2></div>
 <div class="form">
 <form action="javascript: sendemail()">
-
-
-
-<textarea readonly rows="7" input id="issues" type="text" name="issues">
-    Incidences of cruelty to animals in India, each more shocking than the last, are frequently reported by media outlets. Dogs are poisoned, cows have been burned with acid, and countless other animals across the country are abused every day.
-
-Yet people convicted of such crimes often only pay a paltry Rs 50 fine – the maximum penalty for a first offence of animal abuse under The Prevention of Cruelty to Animals Act, 1960. 
-
-Please help prevent violence against animals by strengthening India's animal protection laws and penalties for abusers. I respectfully ask that you show that cruelty to animals won't be tolerated by ensuring that people found guilty of it receive jail time, significant fines, and counselling and are forbidden to have contact with animals.
-
-Thank you for your attention to this important matter. 
-</textarea>
 <br>
 
 
-Your Name:<br>
+Your Full Name:<br>
 <input id="name" type="text" name="name" required>
 <br>
 
@@ -58,9 +73,9 @@ Contact Number:<br>
 <input id="contact" type="number" name="contact" placeholder="Optional">
 <br>
     
-Address:<br>
-<textarea rows="2" input id="address" type="text" name="issues" required>
-</textarea><br>
+City:<br>
+<input id="city" type="text" name="city" required>
+<br>
 
 <br><br>
 <button type="submit" value="Submit">SUBMIT</button>
