@@ -527,7 +527,7 @@ a:hover {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.form input {
+input {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
@@ -539,7 +539,7 @@ a:hover {
   font-size: 14px;
 }
 
-.form textarea {
+textarea {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
@@ -552,7 +552,7 @@ a:hover {
   }
 	
 	
-.form button {
+button {
 	background-color: #FF1643;
 	border: none;
 	-moz-border-radius: 2px;
